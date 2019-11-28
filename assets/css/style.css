@@ -38,6 +38,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 .row-table {
     display: table;
 }
@@ -378,15 +386,21 @@ button[type="submit"] {
     background-color: #e64610;
 }
 
+div#map {min-height: 360px;}
+
 /* ----------------------------------------media Queries*/
 
-@media(min-width:992px){
-    
+@media (min-width: 992px) {
+
     .center-form {
-    padding: 30px;
-    min-height:240px;
-    margin: 0 auto;
-    max-width: 50%;
-}
+        padding: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+
     
+
+
 }
